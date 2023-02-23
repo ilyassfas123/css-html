@@ -1,0 +1,47 @@
+.DVP{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 150px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.dv{
+    background-color: aquamarine;
+    border: 1px solid white;
+}
+.un{
+    grid-column: span 2;
+    border: 1px solid brown;
+}
+.de{
+ grid-row: span 2;
+}
+.tr{
+    grid-row: span 3;
+    border: 1px solid brown;
+}
+.ci{
+    grid-column: span 3;
+}
+.si{
+    border: 1px solid brown;
+}
+.IMG1{
+    width: 618px;
+    height: 149px;
+}
+.IMG2{
+    width: 298px;
+    height: 318px;
+}
+.IMG3{
+    width: 298px;
+    height: 490PX;
+}
+.IMG4{
+    
+}
+.IMG6{
+    width: 300px;
+    height: 149px;
+}
